@@ -40,10 +40,10 @@ main{
 }
 
 .bg{
-    position:absolute;
+    position: absolute;
     width: 1900px;
-    top: calc(90% - 390px);
-    left:calc(49% + 10px);
+    top: calc(50% - 12px);
+    left:calc(50% + 10px);
     transform: translate(-50%,-50%);
     z-index: 1;
 }
@@ -51,27 +51,27 @@ main{
 .stop{
     position:absolute;
     width: 1000px;
-    top: calc(100% - 390px);
-    left:calc(39% + 10px);
-    transform: rotate(15deg) translate(-50%,-50%);
+    top: calc(50% - 390px);
+    left:calc(50% + 10px);
+    transform: translate(-50%,-50%);
     z-index: 2;
 }
 
 .double{
-    /* position:absolute; */
+    position:absolute;
     width: 950px;
-    /* top: calc(128% - 390px);
-    left:calc(49% + 10px); */
-    transform: rotate(25deg) translate(-50%,-50%);
+    top: calc(50% - 390px);
+    left:calc(50% + 10px);
+    transform: translate(-50%,-50%);
     z-index: 3;
 }
 
 .triangle{
-    /* position:absolute; */
+    position:absolute;
     width: 1000px;
-    /* top: calc(90% - 390px);
-    left:calc(55% + 10px); */
-    transform: rotate(-35deg) translate(-50%,-50%);
+    top: calc(50% - 10px);
+    left:calc(50% + 10px);
+    transform: translate(-50%,-50%);
     z-index: 4;
 }
 
