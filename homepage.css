@@ -44,34 +44,30 @@ main{
     width: 1900px;
     top: calc(50% - 12px);
     left:calc(50% + 10px);
-    transform: translate(-50%,-50%);
     z-index: 1;
 }
 
 .stop{
     position:absolute;
     width: 1000px;
-    top: calc(50% - 390px);
+    top: calc(50% - 120px);
     left:calc(50% + 10px);
-    transform: translate(-50%,-50%);
     z-index: 2;
 }
 
 .double{
     position:absolute;
-    width: 950px;
-    top: calc(50% - 390px);
-    left:calc(50% + 10px);
-    transform: translate(-50%,-50%);
+    width: 1050px;
+    top: calc(50% + 90px);
+    left:calc(50% + 410px);
     z-index: 3;
 }
 
 .triangle{
     position:absolute;
     width: 1000px;
-    top: calc(50% - 10px);
-    left:calc(50% + 10px);
-    transform: translate(-50%,-50%);
+    top: calc(50% + 450px);
+    left:calc(50% - 340px);
     z-index: 4;
 }
 
