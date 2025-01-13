@@ -42,33 +42,33 @@ main{
 
 .bg{
     position: absolute;
-    width: 1900px;
-    top: calc(50% - 12px);
-    left:calc(50% + 10px);
+    width: 98.95%;
+    top: 48.89%;
+    left: 50.52%;
     z-index: 1;
 }
 
 .stop{
     position:absolute;
-    width: 1000px;
-    top: calc(50% - 120px);
-    left:calc(50% + 10px);
+    width: 52.08%;
+    top: 38.9%;
+    left: 50.52%;
     z-index: 2;
 }
 
 .double{
     position:absolute;
-    width: 1050px;
-    top: calc(50% + 200px);
-    left:calc(50% + 410px);
+    width: 54.68%;
+    top: 68.51%;
+    left: 71.35%;
     z-index: 4;
 }
 
 .triangle{
     position:absolute;
-    width: 1000px;
-    top: calc(50% + 450px);
-    left:calc(50% - 340px);
+    width: 52.08%;
+    top: 91.66%;
+    left: 32.3%;
     z-index: 4;
 }
 
@@ -87,4 +87,10 @@ main{
     font-weight:200;
     font-family: sans-serif;
     font-size: 6.5rem;
+}
+
+@media (max-width: 1100px){
+    .text h2{
+        font-size: 5.8rem
+    }
 }
