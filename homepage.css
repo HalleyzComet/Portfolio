@@ -35,8 +35,9 @@ main{
     overflow: hidden;
 }
 
-.parallax{
+.parallax, .parallax_bg{
     pointer-events: none;
+    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
 }
 
 .bg{
@@ -58,9 +59,9 @@ main{
 .double{
     position:absolute;
     width: 1050px;
-    top: calc(50% + 90px);
+    top: calc(50% + 200px);
     left:calc(50% + 410px);
-    z-index: 3;
+    z-index: 4;
 }
 
 .triangle{
@@ -78,7 +79,7 @@ main{
     left: 28%;
     text-align: center;
     text-transform: uppercase;
-    z-index: 5;
+    z-index: 3;
     pointer-events: auto;
 }
 
