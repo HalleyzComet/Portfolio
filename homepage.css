@@ -6,9 +6,6 @@
     box-sizing: border-box
 }
 
-.logo {
-    width: 200px;
-}
 
 header{
     position:absolute;
@@ -21,7 +18,7 @@ header{
 }
 
 header nav{
-    background-color: #daa64471;
+    background-color: #4480da96;
     max-width: 1400px;
     margin: 0 auto;
     padding: 2rem;
