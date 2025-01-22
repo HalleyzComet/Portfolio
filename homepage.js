@@ -4,6 +4,7 @@ let xValue = 0, yValue = 0;
 
 let rotateDegree = 0;
 
+
 function update(CursorPosition) {
     parallax_el.forEach((el) => {
         let speedx = el.dataset.speedx;

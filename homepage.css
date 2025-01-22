@@ -36,7 +36,7 @@ main{
 }
 
 .parallax, .parallax_bg{
-    pointer-events: none;
+    /* pointer-events: none; */
     transition: 0.45s cubic-bezier(.2,.49,.32,.99);
 }
 
@@ -49,6 +49,7 @@ main{
 }
 
 .stop{
+    z-index: 9999;
     position:absolute;
     width: 52.08%;
     top: 38.9%;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,6 @@
     <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-    <!-- <header>
-        <nav>
-            <img src="Homepage_images/header.png" alt="halley" class="logo">
-        </nav>
-    </header> -->
     <main>
         <img
             src="Homepage_images/Background.png"
@@ -21,10 +17,14 @@
 
         <img
             src="Homepage_images/stop.png"
-            alt="stopsign"
+            alt="stopsign" usemap="#place"
             data-speedx="0.25" data-speedy="0.28" data-speedz="0.25" data-rotation="0.3" class="parallax stop"
         />
-
+        <map name="place">
+            <!-- <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" style="color: blue;"> -->
+            <area shape="poly" href="something.html" coords="660,1055,979,1128,1191,1424,1097,1855,762,2073,431,1985,243,1676,328,1272">
+            <!-- <area shape="poly"  href="croissant.htm" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"> -->
+        </map>
         <img
             src="Homepage_images/double.png"
             alt="doubelsign"
@@ -42,7 +42,18 @@
                 <h2>portfolio</h2>
             </div>
         </div>
+
+
     </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./addons/imageMapResizer.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('map').imageMapResize();
+        });
+        </script>
     <script src="homepage.js"></script>
 </body>
+
 </html>
