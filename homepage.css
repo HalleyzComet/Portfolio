@@ -48,29 +48,61 @@ main{
     z-index: 1;
 }
 
+.stop-wrapper {
+    position: absolute; 
+    width: 36.08%;
+    top: 63.66%;
+    left: 43.3%;
+    z-index: 3;
+    transform: rotate(10deg);
+    transform-origin: center center;
+}
+
 .stop{
-    z-index: 9999;
-    position:absolute;
-    width: 52.08%;
-    top: 38.9%;
-    left: 50.52%;
+    width: 100%;
+    height: auto;
+    position: relative;
     z-index: 2;
 }
 
-.double{
-    position:absolute;
-    width: 54.68%;
-    top: 68.51%;
-    left: 71.35%;
-    z-index: 4;
+.double-wrapper {
+    position: absolute; 
+    width: 40.08%;
+    top: 82.66%;
+    left: 64.3%;
+    z-index: 3;
+    transform: rotate(30deg);
+    transform-origin: center center;
 }
 
-.triangle{
-    position:absolute;
-    width: 52.08%;
-    top: 91.66%;
-    left: 32.3%;
+.double{
+    width: 100%;
+    height: auto;
+    position: relative;
     z-index: 4;
+    pointer-events: auto;
+}
+
+.triangle-wrapper {
+    position: absolute; 
+    width: 28.08%;
+    top: 74.66%;
+    left: 36.3%;
+    z-index: 3;
+    transform: rotate(-30deg);
+    transform-origin: center center;
+}
+
+.triangle {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.hexagon{
+    pointer-events: all;
+    z-index: 10;
 }
 
 .text{

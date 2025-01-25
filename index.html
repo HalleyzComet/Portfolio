@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="homepage.css">
-</head>
-<body>
+    <link rel="stylesheet" href="homepage.css" />
+  </head>
+  <body>
     <main>
-        <img
-            src="Homepage_images/Background.png"
-            alt="background"
-            data-speedx="0.27" data-speedy="0.30" data-speedz="0" data-rotation="0" class=" parallax bg"
-        />
+        
+      <img
+        src="Homepage_images/Background.png"
+        alt="background"
+        data-speedx="0.27"
+        data-speedy="0.30"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax bg"
+      />
 
+      <div class="double-wrapper">
         <img
-            src="Homepage_images/stop.png"
-            alt="stopsign" usemap="#place"
-            data-speedx="0.25" data-speedy="0.28" data-speedz="0.25" data-rotation="0.3" class="parallax stop"
+          src="Homepage_images/double.png"
+          alt="doubelsign"
+          data-speedx="0.15"
+          data-speedy="0.22"
+          data-speedz="0.35"
+          data-rotation="0.45"
+          class="parallax double"
         />
-        <map name="place">
-            <!-- <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" style="color: blue;"> -->
-            <area shape="poly" href="something.html" coords="660,1055,979,1128,1191,1424,1097,1855,762,2073,431,1985,243,1676,328,1272">
-            <!-- <area shape="poly"  href="croissant.htm" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"> -->
-        </map>
-        <img
-            src="Homepage_images/double.png"
-            alt="doubelsign"
-            data-speedx="0.15" data-speedy="0.22" data-speedz="0.35" data-rotation="0.45" class="parallax double"
-        />
+      </div>
 
+      <div class="triangle-wrapper">
         <img
-            src="Homepage_images/triangle.png"
-            alt="triganglesign"
-            data-speedx="0.10" data-speedy="0.16" data-speedz="0.52" data-rotation="0.5" class=" parallax triangle"
+          src="Homepage_images/triangle.png"
+          alt="triganglesign"
+          data-speedx="0.10"
+          data-speedy="0.16"
+          data-speedz="0.52"
+          data-rotation="0.5"
+          class="parallax triangle"
         />
+      </div>
 
-        <div class="parallax"> 
-            <div class="text parallax">
-                <h2>portfolio</h2>
-            </div>
+      <div class="parallax">
+        <div class="text parallax">
+          <h2>portfolio</h2>
         </div>
+      </div>
 
+    <div class="stop-wrapper">
+      <img
+        src="Homepage_images/stop.png"
+        alt="stopsign"
+        usemap="#place"
+        data-speedx="0.25"
+        data-speedy="0.28"
+        data-speedz="0.25"
+        data-rotation="0.3"
+        class="parallax stop"
+      />
+    </div>
+
+      <map name="place" class="hexagon">
+        <area
+          href="something.html"
+          coords="312,1076,638,1090,897,1337,891,1776,603,2048,261,2022,18,1763,28,1341"
+          shape="poly"
+        />
+      </map>
 
     </main>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="./addons/imageMapResizer.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('map').imageMapResize();
-        });
-        </script>
+      $(document).ready(function () {
+        $("map").imageMapResize();
+      });
+    </script>
     <script src="homepage.js"></script>
-</body>
-
+  </body>
 </html>
