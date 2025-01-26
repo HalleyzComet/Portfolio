@@ -100,11 +100,6 @@ main{
     z-index: 1;
 }
 
-.hexagon{
-    pointer-events: all;
-    z-index: 10;
-}
-
 .text{
     position: absolute;
     width: 800px;
