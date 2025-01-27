@@ -24,3 +24,14 @@ body {
 .digital {
   width: 30%;
 }
+
+.homebutton{
+  width: 13%;
+  top: -2%;
+  position:absolute;
+}
+
+.homebutton-wrapper{
+  left: 0%;
+  top: -50%;
+}
