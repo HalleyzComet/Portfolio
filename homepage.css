@@ -49,23 +49,29 @@ main{
 }
 
 .bgfoliage {
-    position: fixed;
-    width: 130%;
+    position: absolute;
+    width: 110%;
     left: 50%;
-    z-index: 1;
+    z-index: 2;
     padding: 0%;
-    bottom: -95%;
+    top: 70%;
+    pointer-events: none;
 }
 
 .fgfoliage {
-    position: fixed;
-    z-index: 1;
+    position: absolute;
+    width: 110%;
+    left: 50%;
+    z-index: 11;
+    padding: 0%;
+    top: 50%;
+    pointer-events: none;
 }
 
 .stop-wrapper {
     position: absolute; 
-    width: 36.08%;
-    top: 63.66%;
+    width: 43.08%;
+    top: 50.66%;
     left: 43.3%;
     z-index: 4;
     transform: rotate(10deg);
@@ -81,9 +87,9 @@ main{
 
 .double-wrapper {
     position: absolute; 
-    width: 40.08%;
-    top: 82.66%;
-    left: 64.3%;
+    width: 50.08%;
+    top: 88.66%;
+    left: 55.3%;
     z-index: 5;
     transform: rotate(30deg);
     transform-origin: center center;
@@ -99,9 +105,9 @@ main{
 
 .triangle-wrapper {
     position: absolute; 
-    width: 28.08%;
+    width: 35.08%;
     top: 74.66%;
-    left: 36.3%;
+    left: 40.3%;
     z-index: 3;
     transform: rotate(-30deg);
     transform-origin: center center;
