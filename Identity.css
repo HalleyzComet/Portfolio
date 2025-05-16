@@ -38,25 +38,19 @@ body {
 
 .allimagesidentity{
  margin-top: 2%;
- height: 100vh;
+ height: auto;
  width: auto;
  max-width: 90vw;
+ max-height: 90vh;
  display: block;
  margin-left: auto;
  margin-right: auto;
 }
 
-.forest{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-
-}
-
-.eyes{
-  width: 90vw;
-  height: auto;
+@media screen and (max-width:800px){
+  .title {
+    font-size: 80px;
+  }
 }
 
 .bodyofwork img {

@@ -8,13 +8,13 @@
   </head>
   <body>
     <main>
-        <img
+      <img
         src="Homepage_images/Background.png"
         alt="background"
         class="background"
-        />
+      />
 
-        <!-- <img
+      <!-- <img
         src="Homepage_images/backgroundfoliage.png"
         alt="backgroundfoliage"
         class="bgfoliage"
@@ -31,20 +31,20 @@
       />
 
       <img
-      src="Homepage_images/backgroundfoliage.png"
-      alt="foliage"
-      data-speedx="0.05"
-      data-speedy="0"
-      data-speedz="0"
-      data-rotation="0"
-      class="parallax bgfoliage"
-    />
-
+        src="Homepage_images/backgroundfoliage.png"
+        alt="foliage"
+        data-speedx="0.05"
+        data-speedy="0"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax bgfoliage"
+      />
 
       <div class="double-wrapper">
         <img
           src="Homepage_images/double.png"
           alt="doubelsign"
+          usemap="#doublesign"
           data-speedx="0.15"
           data-speedy="0.22"
           data-speedz="0.35"
@@ -52,6 +52,17 @@
           class="parallax double"
         />
       </div>
+
+      <map name="doublesign">
+        <area
+          href="wonder.html"
+          coords="77,1583,855,2058"
+          shape="rect">
+          <area 
+          href="portfolio.html"
+          coords="1239,1401,2129,1886"
+          shape="rect">
+      </map>
 
       <div class="triangle-wrapper">
         <img
@@ -67,21 +78,22 @@
       </div>
 
       <img
-      src="Homepage_images/foregroundfoliage.png"
-      alt="foreground foliage"
-      data-speedx="0.10"
-      data-speedy="0"
-      data-speedz="0"
-      data-rotation="0"
-      class="parallax fgfoliage"
+        src="Homepage_images/foregroundfoliage.png"
+        alt="foreground foliage"
+        data-speedx="0.10"
+        data-speedy="0"
+        data-speedz="0"
+        data-rotation="0"
+        class="parallax fgfoliage"
       />
 
       <map name="identity">
         <area
-        href="identity.html"
-        coords="37,725,56,710,145,661,929,287,959,294,981,301,1001,327,1041,1402,1035,1440,1023,1466,1003,1483,974,1488,945,1481,83,861,48,820,33,782,31,752"
-        shape="poly">
-    </map>
+          href="identity.html"
+          coords="37,725,56,710,145,661,929,287,959,294,981,301,1001,327,1041,1402,1035,1440,1023,1466,1003,1483,974,1488,945,1481,83,861,48,820,33,782,31,752"
+          shape="poly"
+        />
+      </map>
 
       <div class="parallax">
         <div class="text parallax">
@@ -89,18 +101,18 @@
         </div>
       </div>
 
-    <div class="stop-wrapper">
-      <img
-        src="Homepage_images/stop.png"
-        alt="stopsign"
-        usemap="#place"
-        data-speedx="0.25"
-        data-speedy="0.28"
-        data-speedz="0.25"
-        data-rotation="0.3"
-        class="parallax stop"
-      />
-    </div>
+      <div class="stop-wrapper">
+        <img
+          src="Homepage_images/stop.png"
+          alt="stopsign"
+          usemap="#place"
+          data-speedx="0.25"
+          data-speedy="0.28"
+          data-speedz="0.25"
+          data-rotation="0.3"
+          class="parallax stop"
+        />
+      </div>
 
       <map name="place">
         <area
@@ -109,7 +121,6 @@
           shape="poly"
         />
       </map>
-
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
