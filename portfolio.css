@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(200, 176, 231);
+}
+
+.title{
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: #235b7c;
+    text-align: center;
+    margin: auto;
+}
+
+.homebutton{
+    width: 13%;
+    top: -2%;
+    position:absolute;
+  }
+  
+  .homebutton-wrapper{
+    left: 0%;
+    top: -50%;
+  }
+
+  .allimagesidentity{
+    margin-top: 2%;
+    height: auto;
+    width: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   @media screen and (max-width:800px){
+     .title {
+       font-size: 80px;
+     }
+   }
+   
+   .bodyofwork img {
+     object-fit: cover;
+     border-radius: 8px;
+     box-shadow: 0 2px 8px rgba(90, 1, 255, 0.1);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   .bodyofwork img:hover {
+     transform: scale(1.03);
+     box-shadow: 0 4px 12px rgba(111, 0, 255, 0.2);
+   }
